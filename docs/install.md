@@ -76,32 +76,3 @@ Once installed, you can:
 1. Check out the [Usage Guide](./usage.md) for examples
 2. Review the [Configuration Options](./config.md)
 3. Explore the [API Documentation](./api.md)
-
-## Troubleshooting
-
-### Common Installation Issues
-
-1. **Type Errors**
-
-   ```
-   error TS2307: Cannot find module 'ts-vat' or its corresponding type declarations.
-   ```
-
-   Solution: Install `@types/ts-vat` or add `"skipLibCheck": true` to your tsconfig.json
-
-2. **VIES Service Connection**
-
-   ```
-   VatCheckUnavailableException: VAT check is currently unavailable
-   ```
-
-   Solution: Check your internet connection and firewall settings
-
-3. **Version Conflicts**
-   If you encounter version conflicts with other packages, try using:
-
-   ```bash
-   npm install ts-vat@latest --force
-   ```
-
-For more help, check our [GitHub Issues](https://github.com/stacksjs/ts-vat/issues) or join our [Discord Community](https://discord.gg/stacksjs).
