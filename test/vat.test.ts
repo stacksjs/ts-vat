@@ -1,5 +1,5 @@
 import type { VatRateType, VatRules } from '../src/types'
-import { afterAll, afterEach, beforeAll, beforeEach, describe, expect, it, mock, spyOn, test } from 'bun:test'
+import { describe, expect, it, mock } from 'bun:test'
 import { defaultConfig } from '../src/config'
 import { InvalidCountryCodeException, InvalidPostalCodeException, InvalidVatNumberException, VatCheckUnavailableException } from '../src/exceptions'
 import { VatCalculator } from '../src/vat-calculator'
