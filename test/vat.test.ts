@@ -34,8 +34,10 @@ describe('VatCalculator', () => {
       const countryCode = 'DE'
       const calculator = new VatCalculator({
         rules: {
-          ...defaultConfig.rules,
+          ...defaultConfig.rules!,
           DE: { rate: 0.50, rates: { high: 0.50, low: 0.07 } },
+          FR: { rate: 0.20, rates: { high: 0.20, low: 0.055 } },
+          GB: { rate: 0.20, rates: { high: 0.20, low: 0.05 } },
         } as VatRules,
       })
       const result = calculator.calculate(net, countryCode)
@@ -296,7 +298,14 @@ describe('VatCalculator', () => {
     })
 
     it('should enforce country code types', () => {
-      const calculator = new VatCalculator()
+      const calculator = new VatCalculator({
+        rules: {
+          ...defaultConfig.rules!,
+          DE: { rate: 0.19, rates: { high: 0.19, low: 0.07 } },
+          FR: { rate: 0.20, rates: { high: 0.20, low: 0.055 } },
+          GB: { rate: 0.20, rates: { high: 0.20, low: 0.05 } },
+        } as VatRules,
+      })
 
       // These should compile without type errors
       calculator.setCountryCode('DE')
@@ -442,7 +451,7 @@ describe('VatCalculator', () => {
     it('should enforce country code types', () => {
       const calculator = new VatCalculator({
         rules: {
-          ...defaultConfig.rules,
+          ...defaultConfig.rules!,
           DE: { rate: 0.19, rates: { high: 0.19, low: 0.07 } },
           FR: { rate: 0.20, rates: { high: 0.20, low: 0.055 } },
           GB: { rate: 0.20, rates: { high: 0.20, low: 0.05 } },
