@@ -19,13 +19,34 @@ const analyticsHead: HeadConfig[] = [
 ]
 
 const nav = [
+  { text: 'News', link: 'https://stacksjs.org/news' },
+  {
+    text: 'Changelog',
+    link: 'https://github.com/stacksjs/ts-vat/blob/main/CHANGELOG.md',
+  },
   {
     text: 'Resources',
     items: [
-      { text: 'EU VAT Rules', link: 'https://taxation-customs.ec.europa.eu/vat_en' },
-      { text: 'VIES Service', link: 'https://ec.europa.eu/taxation_customs/vies/' },
-      { text: 'Contributing', link: 'https://github.com/stacksjs/ts-vat/blob/main/.github/CONTRIBUTING.md' },
+      { text: 'Team', link: '/team' },
+      { text: 'Sponsors', link: '/sponsors' },
+      { text: 'Partners', link: '/partners' },
+      { text: 'Postcardware', link: '/postcardware' },
+      { text: 'Stargazers', link: '/stargazers' },
       { text: 'License', link: '/license' },
+      {
+        items: [
+          { text: 'EU VAT Rules', link: 'https://taxation-customs.ec.europa.eu/vat_en' },
+          { text: 'VIES Service', link: 'https://ec.europa.eu/taxation_customs/vies/' },
+          {
+            text: 'Awesome Stacks',
+            link: 'https://github.com/stacksjs/awesome-stacks',
+          },
+          {
+            text: 'Contributing',
+            link: 'https://github.com/stacksjs/stacks/blob/main/.github/CONTRIBUTING.md',
+          },
+        ],
+      },
     ],
   },
 ]

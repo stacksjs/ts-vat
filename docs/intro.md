@@ -135,3 +135,50 @@ console.log(result)
 5. **Performance**: Optimized for high-performance applications with minimal overhead
 
 Ready to get started? Check out our [Installation Guide](./install.md) or dive into the [Usage Documentation](./usage.md).
+
+## Contributing
+
+Please see [CONTRIBUTING](https://github.com/stacksjs/stacks/blob/main/.github/CONTRIBUTING.md) for details.
+
+## Stargazers
+
+[![Stargazers](https://starchart.cc/stacksjs/ts-vat.svg?variant=adaptive)](https://starchart.cc/stacksjs/ts-vat)
+
+## Community
+
+For help, discussion about best practices, or any other conversation that would benefit from being searchable:
+
+[Discussions on GitHub](https://github.com/stacksjs/ts-countries/discussions)
+
+For casual chit-chat with others using this package:
+
+[Join the Stacks Discord Server](https://discord.gg/stacksjs)
+
+## Postcardware
+
+“Software that is free, but hopes for a postcard.” We love receiving postcards from around the world showing where Stacks is being used! We showcase them on our website too.
+
+Our address: Stacks.js, 12665 Village Ln #2306, Playa Vista, CA 90094, United States 🌎
+
+## Credits
+
+- [Rinvex](https://github.com/rinvex) for the original PHP library
+- [Chris Breuer](https://github.com/chrisbreuer) for the TypeScript conversion
+
+## Sponsors
+
+We would like to extend our thanks to the following sponsors for funding Stacks development. If you are interested in becoming a sponsor, please reach out to us.
+
+- [JetBrains](https://www.jetbrains.com/)
+- [The Solana Foundation](https://solana.com/)
+
+## License
+
+The MIT License (MIT). Please see [LICENSE](https://github.com/stacksjs/ts-starter/tree/main/LICENSE.md) for more information.
+
+Made with 💙
+
+<!-- Badges -->
+
+<!-- [codecov-src]: https://img.shields.io/codecov/c/gh/stacksjs/rpx/main?style=flat-square
+[codecov-href]: https://codecov.io/gh/stacksjs/rpx -->
