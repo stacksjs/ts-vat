@@ -43,11 +43,11 @@
     "typecheck": "bun --bun tsc --noEmit"
   },
   "devDependencies": {
-    "@stacksjs/bumpx": "^0.1.33",
+    "@stacksjs/bumpx": "^0.1.38",
     "@stacksjs/docs": "^0.70.23",
     "@stacksjs/eslint-config": "^4.10.2-beta.3",
     "@stacksjs/gitlint": "^0.1.5",
-    "@stacksjs/logsmith": "^0.1.14",
+    "@stacksjs/logsmith": "^0.1.15",
     "@types/bun": "^1.2.21",
     "@types/xmldom": "^0.1.34",
     "@xmldom/xmldom": "^0.9.8",
