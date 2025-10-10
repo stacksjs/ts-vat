@@ -93,7 +93,7 @@ export default withPwa(
 
     head: [
       ['link', { rel: 'icon', href: '/favicon.ico' }],
-      ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+      ['meta', { name: 'theme-color', content: '#0A0ABC' }],
       ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
       ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
       ['meta', { name: 'keywords', content: 'vat calculator, eu vat, typescript, vat validation, vies service, b2b vat, vat rates, tax calculation, eu moss, digital services vat, cross-border vat' }],
@@ -149,7 +149,7 @@ export default withPwa(
     pwa: {
       name: 'ts-vat Documentation',
       short_name: 'ts-vat Docs',
-      theme_color: '#3eaf7c',
+      theme_color: '#0A0ABC',
       icons: [
         {
           src: '/icons/android-chrome-192x192.png',
