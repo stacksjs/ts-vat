@@ -52,7 +52,7 @@
     "@types/bun": "^1.2.9",
     "@types/xmldom": "^0.1.34",
     "@xmldom/xmldom": "^0.9.8",
-    "buddy-bot": "^0.9.11",
+    "buddy-bot": "^0.9.12",
     "bun-git-hooks": "^0.2.19",
     "bun-plugin-dtsx": "^0.21.9",
     "bunfig": "^0.8.2",
