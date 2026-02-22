@@ -48,7 +48,7 @@
     "@stacksjs/docs": "^0.70.23",
     "@stacksjs/eslint-config": "^4.10.2-beta.3",
     "@stacksjs/gitlint": "^0.1.5",
-    "@stacksjs/logsmith": "^0.1.8",
+    "@stacksjs/logsmith": "^0.2.1",
     "@types/bun": "^1.2.9",
     "@types/xmldom": "^0.1.34",
     "@xmldom/xmldom": "^0.9.8",
