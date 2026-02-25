@@ -14,7 +14,6 @@
 
 ## ...main
 
-
 ### 🏡 Chore
 
 - Initial commit ([18e6588](https://github.com/stacksjs/ts-starter/commit/18e6588))
@@ -25,4 +24,3 @@
 ### ❤️ Contributors
 
 - Chris ([@chrisbbreuer](https://github.com/chrisbbreuer))
-

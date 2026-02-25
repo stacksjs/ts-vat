@@ -126,7 +126,7 @@ console.log(result)
 // }
 ```
 
-## Why ts-vat?
+## Why ts-vat
 
 1. **Accuracy**: Built with precision in mind, following official EU VAT rules and regulations
 2. **Type Safety**: Full TypeScript support ensures compile-time error catching
