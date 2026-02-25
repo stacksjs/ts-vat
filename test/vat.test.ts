@@ -172,7 +172,7 @@ describe('VatCalculator', () => {
 
       const mockFetch = mock(() => Promise.resolve(new Response(mockXmlResponse, { status: 200 })))
       const originalFetch = globalThis.fetch
-      globalThis.fetch = mockFetch
+      globalThis.fetch = mockFetch as unknown as typeof fetch
 
       try {
         const details = await calculator.getVatDetails('DE123456789')
@@ -193,7 +193,7 @@ describe('VatCalculator', () => {
 
     it('should handle VIES service errors', async () => {
       const calculator = new VatCalculator()
-      globalThis.fetch = mock(() => Promise.reject(new Error('Service unavailable')))
+      globalThis.fetch = mock(() => Promise.reject(new Error('Service unavailable'))) as unknown as typeof fetch
 
       await expect(calculator.getVatDetails('DE123456789')).rejects.toThrow(VatCheckUnavailableException)
       await expect(calculator.isValidVatNumber('DE123456789')).resolves.toBe(false)
@@ -414,7 +414,7 @@ describe('VatCalculator', () => {
       const calculator1 = new VatCalculator({ forwardSoapFaults: false })
       const calculator2 = new VatCalculator({ forwardSoapFaults: true })
 
-      globalThis.fetch = mock(() => Promise.reject(new Error('SOAP Fault')))
+      globalThis.fetch = mock(() => Promise.reject(new Error('SOAP Fault'))) as unknown as typeof fetch
 
       // Should return false when not forwarding faults
       expect(calculator1.isValidVatNumber('DE123456789')).resolves.toBe(false)
