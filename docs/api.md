@@ -42,7 +42,7 @@ calculate(
 
 Calculates VAT for a given price and location.
 
-**Returns:**
+#### Returns
 
 ```typescript
 interface VatCalculationResult {
@@ -93,7 +93,7 @@ async getVatDetails(vatNumber: string): Promise<VatNumberValidationResult>
 
 Gets detailed information about a VAT number.
 
-**Returns:**
+#### Returns
 
 ```typescript
 interface VatNumberValidationResult {
