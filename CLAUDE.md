@@ -2,7 +2,7 @@
 
 ## About
 
-Easily handle EU MOSS tax & VAT regulations.
+ts-vat is a TypeScript VAT calculator for EU countries. It calculates VAT rates (standard, reduced, super-reduced) for all EU member states, validates VAT numbers through the VIES service, handles special VAT zones and exceptions (e.g., Heligoland), and supports both B2B and B2C transaction scenarios. The main entry point is the `VatCalculator` class, which provides `calculate`, `calculateNet`, `isValidVatNumber`, and `getVatDetails` methods.
 
 ## Linting
 
