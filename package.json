@@ -69,7 +69,7 @@
     "@xmldom/xmldom": "^0.9.8",
     "buddy-bot": "^0.9.16",
     "bun-git-hooks": "^0.2.19",
-    "bun-plugin-dtsx": "^0.21.17",
+    "bun-plugin-dtsx": "0.9.9",
     "bunfig": "^0.8.2",
     "pickier": "^0.1.20",
     "typescript": "^5.9.3"
