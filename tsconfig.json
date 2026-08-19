@@ -20,5 +20,7 @@
     "verbatimModuleSyntax": true,
     "skipDefaultLibCheck": true,
     "skipLibCheck": true
-  }
+  },
+  "include": ["src", "test", "bin"],
+  "exclude": ["dist", "node_modules", "docs"]
 }
