@@ -61,10 +61,10 @@
     "release:patch": "bunx --bun bumpx patch --recursive --commit --tag --push --yes"
   },
   "devDependencies": {
-    "@stacksjs/bunpress": "^0.2.11",
+    "@stacksjs/bunpress": "^0.2.14",
     "@types/xmldom": "^0.1.34",
     "@xmldom/xmldom": "^0.9.8",
-    "better-dx": "^0.2.15",
+    "better-dx": "^0.2.25",
     "typescript": "^7.0.2"
   },
   "git-hooks": {
